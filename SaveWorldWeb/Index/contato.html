@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../CSS/estilo.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<title>Contato</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ 	 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  	<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+<body>
+		<nav class="navbar navbar-toggleable-md navbar-expand-sm bg-light navbar-light ">
+			<a class="navbar-brand pull-right" href="indexMain.html"><img src="../IMG/Logo.jpg" width="100px" height="40px" alt="Foto02" ></a>
+		  <ul class="navbar-nav	navbar-toggler-right ml-auto">
+		    <li class="nav-item active">
+		      <a class="nav-link js-scroll-trigger" id="home" href="indexMain.html">Menu</a>
+		    </li>
+		    <div class="subnav">
+		    <li class="nav-item">
+		      <a class="nav-link js-scroll-trigger" href="ONU.html">Causas</a>
+		    </div>
+		    <li class="nav-item">
+		      <a class="nav-link js-scroll-trigger" href="login.html">Login</a>
+		    </li>
+		    <li class="nav-item">
+		      <a class="nav-link js-scroll-trigger" href="Cadastro.html">Cadastre-se</a>
+		    </li>
+		    <li class="nav-item">
+		      <a class="nav-link js-scroll-trigger" href="contato.html">Contato</a>
+		    </li>
+		  </ul>
+		</nav>
+	</div>
+	
+
+	<div class="container-fluid">
+		
+			<h2 align="center">Save World</h2>
+			<h4 align="center">Contate-Nos</h4>
+
+			<div class="container" style="width: 40%">	
+		<form class="form-group">
+                            <div class="control-group">
+                                <div class="form-group mb-0 pb-2">
+                                    <label>Nome</label>
+                                    <input class="form-control"  type="text" required="required" data-validation-required-message="Please enter your name." />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                    <label>Email </label><input class="form-control" type="email"  required="required" data-validation-required-message="Please enter your email address." />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                    <label>Telefone</label><input class="form-control" type="tel"  required="required" data-validation-required-message="Please enter your phone number." />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                    <label>Mensagem</label><textarea class="form-control" id="message" rows="5" placeholder="Message" required="required" data-validation-required-message="Digite aqui sua Mensagem"></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <br />
+                            <div id="success"></div>
+                            <div class="form-group"><button class="btn btn-primary btn-xl" id="sendMessageButton" type="submit">Enviar</button></div>
+                        </form>
+                        </div>	
+		</div>
+	</div>
+</body>
+</html>

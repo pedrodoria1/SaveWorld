@@ -1,0 +1,143 @@
+body{
+	font-family: 'Lato', sans-serif;
+	font-family: verdana;
+	margin: 0px;
+}
+
+#barraNav{
+	display: table;
+	width: 100%;
+	background: #87CFEA;
+}
+
+#topo{
+	height: 500px;
+	width: auto;
+	
+/*background: url('../IMG/Logo.jpg');*/
+}
+
+#base{
+	height: 200px;
+	width: auto;
+	background: #87CFEA;
+}
+
+.Fotos{
+	margin: auto;
+	display: inline-flex;
+	text-align: center;
+	padding: 10px;
+	padding-left: 9%;
+
+}
+
+#F02{
+	text-align: center;
+	margin: 10px 15px;
+}
+
+#F03{
+	
+	margin: 10px 15px;
+}
+
+#F04{
+	
+	margin: 10px 15px;
+	
+}
+
+
+h1{
+	text-align: center;
+	font-family:verdana;
+	margin: 0px;
+	padding: 7px 0px;
+	width: 30%;
+	float: left;
+	color: white;
+	background: #87CFEA;
+}
+
+a{
+	font-size: 19px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding: 6px 20px;
+	
+}
+
+a:hover{
+	color: black;
+	background: white;
+}
+
+p{
+	
+	text-align: center;
+}
+
+button{
+	float: right;
+}
+
+
+
+#menu{
+	background: #87CFEA;
+	padding: 10px;
+	width: 68%;
+	float: right;
+}
+
+#menu > ul{
+	display: table;
+	margin: 5px auto;
+	padding: 0px;
+	float: right;
+}
+
+#menu > ul > li{
+	float: left;
+		
+}
+
+#menu li{
+	list-style: none;
+}
+
+.submenu{
+	background: white;
+	margin: 5px 0px 0px;
+	padding: 0px;
+}
+
+.submenu li{
+	margin: 10px;
+}
+
+
+.submenu a {
+	display: block;
+}
+
+#menu .submenu{
+	display: none;
+}
+
+#menu li:hover .submenu{
+	display: block;
+	position: absolute;
+	
+}
+
+.navbar {
+	overflow: hidden;
+}
+
+  .subnav {
+    float: left;
+    overflow: hidden;
+  }
